@@ -6,7 +6,7 @@ Release: 1
 Summary: Adds support for Skype to Pidgin
 License: GPLv3
 URL: https://github.com/EionRobb/skype4pidgin
-Source0: https://github.com/EionRobb/skype4pidgin/archive/%{version}.tar.gz
+Source0: https://github.com/EionRobb/skype4pidgin/archive/%{version}/skype4pidgin-%{version}.tar.gz
 
 BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(purple)
