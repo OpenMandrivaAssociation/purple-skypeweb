@@ -1,8 +1,8 @@
 %global plugin_name skypeweb
 
 Name: purple-%{plugin_name}
-Version: 1.5
-Release: 10
+Version: 1.7
+Release: 1
 Summary: Adds support for Skype to Pidgin
 License: GPLv3
 URL: https://github.com/EionRobb/skype4pidgin
@@ -12,7 +12,6 @@ BuildRequires: pkgconfig(glib-2.0)
 BuildRequires: pkgconfig(purple)
 BuildRequires: pkgconfig(json-glib-1.0)
 BuildRequires: pkgconfig(zlib)
-BuildRequires: gcc
 
 Provides: skype4pidgin = %{?epoch:%{epoch}:}%{version}-%{release}
 Obsoletes: skype4pidgin < %{?epoch:%{epoch}:}%{version}-%{release}
