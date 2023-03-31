@@ -2,7 +2,7 @@
 
 Name: purple-%{plugin_name}
 Version: 1.7
-Release: 1
+Release: 2
 Summary: Adds support for Skype to Pidgin
 License: GPLv3
 URL: https://github.com/EionRobb/skype4pidgin
